@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Incrustación de Contenido</title>
+  <style>
+   body{
+    background-color: rgb(185, 225, 211);
+    padding: 50px 115px;
+   }
+   .texto{
+    background-color: white;
+   }
+   p{
+    text-align: center;
+   }
+     h2{
+    text-align: center;
+   }
+    h1{
+    text-align: center;
+   }
+  </style>
+</head>
+<body>
+  <h1>Etiquetas de Incrustacion</h1>
+    <hr color="black">
+    <div class="texto">
+    <h2>¿ Que son las etiquetas de incrustacion ?</h2>
+<hr>    
+    <p>Las etiquetas de incrustacion son una serie de etiquetas las cuales tienen la funcion de meter recursos externos del html como imagenes, audio, mapas etc... </p>
+
+    <br>
+
+    <p>A continuacion se mostrara una tabla con varias etiquetas de incrustacion:</p>
+
+    <table border="1" align="center">
+        <tr>
+            <td><p>Demostracion</p></td>
+            <td><p>Tipo de etiqueta</p></td>
+            <td><p>Explicacion</p></td>
+        </tr>
+        <tr>
+            <td><img src="cielo.webp" alt="Imagen" style="max-width: 60%; height: 60%;"> </td>
+            <td><p>Imagen</p></td>
+            <td>Inserta una imagen en el HTML, se le puede indicar tanto la ruta de la imagen o el nombre de la imagen si esta en la misma carpeta que el html </td>
+        </tr>
+         <tr>
+            <td><video src="It's gonna be alright.mp4" controls></video> </td>
+            <td><p>Video</p></td>
+            <td>Puedes insertar videos ya sean descargados e introducido en la carpeta donde esta el html como un enlace a un video de youtube</td>
+        </tr>
+           <tr>
+            <td><audio src="videoplayback.m4a" controls></audio> </td>
+            <td><p>Audio</p></td>
+            <td>Añade una pestaña en la cual puedes escuchar audio dentro de la pagina web </td>
+        </tr>
+           <tr>
+            <td><iframe src="https://guthib.com"></iframe> </td>
+            <td><p>Iframe</p></td>
+            <td> Permite insertar un documento html dentro de la pagina web principal</td>
+        </tr>
+           <tr>
+            <td><embed src="Documento Ejemplo.pdf"></td>
+            <td><p>Plugguins</p></td>
+            <td> Incrusta contenido externo como aplicaciones interactivas unsando plugguins</td>
+        </tr>
+           <tr>
+            <td> <object data="Documento Ejemplo.pdf" style="max-width: 60%; height: 60%;"></object> </td>
+            <td><p>Contenido externo</p></td>
+            <td> Se usa para incluir contenido de etiquetas anteriores como img video etc, aparte de poder meter tambien pdfs, mapas etc</td>
+        </tr>
+           <tr>
+            <td><canvas id="Canvas" width="200" height="200"></canvas> </td>
+            <td><p>Grafico</p></td>
+            <td>Permite renderizar graficos, animaciones, videojuegos en tiempo real</td>
+        </tr>
+           <tr>
+            <td>   <svg width="400" height="180">
+                <rect x="58" y="30" width="350" height="100" style="fill:rgb(150, 241, 251)" />
+                 </svg></td>
+            <td><p>Grafico</p></td>
+            <td> Se genera una forma vectorial dependiendo del codigo</td>
+           </tr>
+           <tr>
+    </table>
+</div>
+</body>
+</html>
